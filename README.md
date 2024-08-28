@@ -23,7 +23,7 @@ A high-performance, header-only JSON parser and serializer library designed for 
 
 1. **Clone the Repository**:
 
-```sh
+```bash
    git clone https://github.com/yourusername/json-library.git
    cd json-library
 ```
@@ -31,12 +31,12 @@ A high-performance, header-only JSON parser and serializer library designed for 
 Include the Library:
 
 Copy the include/json.hpp file into your project and include it in your source files:
-```sh
+```cpp
 #include "cppjson.hpp"
 ```
 Usage
 Here's a basic example demonstrating how to parse and serialize JSON:
-```sh
+```cpp
 #include "cppjson.hpp"
 #include <iostream>
 
@@ -71,15 +71,15 @@ Building the Example
 If you want to build the example provided in src/main.cpp:
 
 1. Generate the Build Files:
-```sh
+```bash
 cmake -B build
 ```
 2. Build the Project:
-```sh
+```bash
 cmake --build build
 ```
 3. Run the Example:
-```sh
+```bash
 ./build/main
 ```
 
