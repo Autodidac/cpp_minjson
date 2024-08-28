@@ -34,3 +34,36 @@ Copy the include/json.hpp file into your project and include it in your source f
 ```sh
 #include "json.hpp"
 ```
+Usage
+Here's a basic example demonstrating how to parse and serialize JSON:
+```sh
+#include "json.hpp"
+#include <iostream>
+
+int main() {
+    // Example JSON string to parse
+    std::string json_str = R"({
+        "name": "John",
+        "age": 30,
+        "is_student": false,
+        "courses": ["Math", "Science"]
+    })";
+
+    std::string_view json_view(json_str);
+
+    // Parse JSON
+    json::JsonValue value;
+    try {
+        value = json::parse_value(json_view);
+    } catch (const json::JsonParseException& e) {
+        std::cerr << "Parsing error: " << e.what() << std::endl;
+        return 1;
+    }
+
+    // Serialize JSON back to string
+    std::string serialized = json::serialize(value);
+    std::cout << "Serialized JSON: " << serialized << std::endl;
+
+    return 0;
+}
+```
