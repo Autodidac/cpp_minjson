@@ -1,6 +1,4 @@
-# cpp_minjson
-
-# Minimal JSON Library in C++20
+# cpp_minjson - Minimal JSON Library in C++20
 
 #### Minimal JSON Serializer/Parser in C++20 for Game Design
 
