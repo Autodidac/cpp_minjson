@@ -24,8 +24,8 @@ A high-performance, header-only JSON parser and serializer library designed for 
 1. **Clone the Repository**:
 
 ```bash
-   git clone https://github.com/yourusername/json-library.git
-   cd json-library
+   git clone https://github.com/Autodidac/cpp_minjson.git
+   cd cpp_minjson
 ```
 
 Include the Library:
