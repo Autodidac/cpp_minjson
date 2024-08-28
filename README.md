@@ -83,14 +83,16 @@ cmake --build build
 ./build/main
 ```
 
-License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contributing
+### Contributing
 Contributions are welcome! Please submit a pull request or open an issue to discuss improvements or bugs.
 
-Acknowledgments
+### Acknowledgments
 This library was inspired by the need for a lightweight, efficient JSON parser for game development and other real-time applications.
-Contact
+
+### Contact
+
 Your Name - your.email@example.com
-GitHub: yourusername
+GitHub: Autodidac
