@@ -1,6 +1,6 @@
 # cpp_minjson - Minimal JSON Library in C++20
 
-## Minimal JSON Serializer/Parser in C++20 for Game Design
+## Minimal JSON Serializer/Parser in C++20 for Game Development
 
 A high-performance, header-only JSON parser and serializer library designed for C++20. This library is optimized for real-time applications, such as game development, where speed and low memory overhead are crucial.
 
