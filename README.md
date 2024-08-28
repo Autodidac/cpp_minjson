@@ -93,8 +93,6 @@ This library was inspired by the need for a lightweight, efficient JSON parser f
 
 ### Contact
 
-Your Name - your.email@example.com
-
 GitHub: Autodidac
 
 
