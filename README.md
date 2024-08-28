@@ -23,6 +23,14 @@ A high-performance, header-only JSON parser and serializer library designed for 
 
 1. **Clone the Repository**:
 
-   ```sh
+```sh
    git clone https://github.com/yourusername/json-library.git
    cd json-library
+```
+
+Include the Library:
+
+Copy the include/json.hpp file into your project and include it in your source files:
+```sh
+#include "json.hpp"
+```
