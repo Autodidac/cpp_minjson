@@ -94,4 +94,13 @@ This library was inspired by the need for a lightweight, efficient JSON parser f
 ### Contact
 
 Your Name - your.email@example.com
+
 GitHub: Autodidac
+
+
+### **Summary**
+
+- The `README.md` provides an overview of the Minimal JSON Library, installation instructions, usage examples, and build instructions using CMake.
+- The example in `main.cpp` demonstrates parsing a JSON string, accessing its elements, serializing it back to a string, and saving it to a file.
+- This Minimal JSON Library is designed for efficiency, using modern C++20 features to provide a lightweight solution for JSON parsing and serialization in real-time applications like games.
+
