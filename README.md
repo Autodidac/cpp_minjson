@@ -31,14 +31,14 @@ A high-performance, header-only JSON parser and serializer library designed for 
 
 Include the Library:
 
-Copy the include/json.hpp file into your project and include it in your source files:
+Copy the include/cpp_minjson.hpp file into your project and include it in your source files:
 ```cpp
-#include "cppjson.hpp"
+#include "cpp_minjson.hpp"
 ```
 Usage
 Here's a basic example demonstrating how to parse and serialize JSON:
 ```cpp
-#include "cppjson.hpp"
+#include "cpp_minjson.hpp"
 #include <iostream>
 
 int main() {
@@ -53,16 +53,16 @@ int main() {
     std::string_view json_view(json_str);
 
     // Parse JSON
-    cppjson::JsonValue value;
+    cpp_minjson::JsonValue value;
     try {
         value = cppjson::parse_value(json_view);
-    } catch (const json::JsonParseException& e) {
+    } catch (const cpp_minjson::JsonParseException& e) {
         std::cerr << "Parsing error: " << e.what() << std::endl;
         return 1;
     }
 
     // Serialize JSON back to string
-    std::string serialized = cppjson::serialize(value);
+    std::string serialized = cpp_minjson::serialize(value);
     std::cout << "Serialized JSON: " << serialized << std::endl;
 
     return 0;
