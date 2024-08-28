@@ -67,3 +67,30 @@ int main() {
     return 0;
 }
 ```
+Building the Example
+If you want to build the example provided in src/main.cpp:
+
+1. Generate the Build Files:
+```sh
+cmake -B build
+```
+2. Build the Project:
+```sh
+cmake --build build
+```
+3. Run the Example:
+```sh
+./build/main
+```
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contributing
+Contributions are welcome! Please submit a pull request or open an issue to discuss improvements or bugs.
+
+Acknowledgments
+This library was inspired by the need for a lightweight, efficient JSON parser for game development and other real-time applications.
+Contact
+Your Name - your.email@example.com
+GitHub: yourusername
