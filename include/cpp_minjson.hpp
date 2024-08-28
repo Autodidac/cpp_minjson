@@ -10,7 +10,7 @@
 #include <sstream>
 #include <cassert>
 
-namespace json {
+namespace cpp_minjson {
 
 // JSON value can be an object, array, string, number, boolean, or null
 using JsonValue = std::variant<std::nullptr_t, bool, double, std::string, 
